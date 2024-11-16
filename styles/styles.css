@@ -18,6 +18,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    float: left;
 } 
 nav {
     background-color: rgb(17, 24, 81);
