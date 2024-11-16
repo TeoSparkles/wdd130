@@ -19,6 +19,7 @@ main img {
     width: 150px;
     height: auto;
     float: left;
+    margin: 2px;
 } 
 nav {
     background-color: rgb(17, 24, 81);
