@@ -10,6 +10,10 @@ aside{
     color: #333;
     text-align: center;
 }
+aside img {
+    width: 200px;
+    height: auto;
+}
 nav {
     background-color: darkblue;
     padding: 10px;
