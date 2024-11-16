@@ -44,10 +44,10 @@ h1 {
 }
 
 img{
-    width: 150;
+    width: 150px;
     height: auto;
     border: 1px solid black;
-    pad: 2px;
+    padding: 2px;
     box-shadow: 0 0 30px gray;
 
 }
