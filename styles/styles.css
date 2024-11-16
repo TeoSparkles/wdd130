@@ -1,6 +1,7 @@
 main {
     max-width: 850px;
 }
+
 aside{
     width: 20rem;
     margin: 1rem; 
@@ -10,17 +11,23 @@ aside{
     color: #333;
     text-align: center;
 }
+
 aside img {
     width: 200px;
     height: auto;
 }
 
+main {
+    margin: 10px;
+    text-align: justify;
+    
+}
 main img {
     width: 150px;
     height: auto;
-    float: left;
-    margin: 2px;
+    margin: 10px;
 } 
+
 nav {
     background-color: rgb(17, 24, 81);
     padding: 10px;
@@ -41,13 +48,16 @@ img{
     height: auto;
     border: 1px solid black;
     pad: 2px;
-    box-shadow: 0 0 30px gray;}
+    box-shadow: 0 0 30px gray;
+
+}
+
 p {
     padding: 0;
 }
 
 footer {
     margin-top: 10px;
-    border-top: #000 solid;
+    border-top: #333 dotted;
     text-align: center;
 }
