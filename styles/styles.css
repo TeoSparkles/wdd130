@@ -46,6 +46,9 @@ p {
 
 footer {
     margin-top: 10px;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
     border: #333 dotted;
     text-align: center;
 }
