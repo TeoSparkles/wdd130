@@ -1,14 +1,19 @@
-main {
-    max-width: 850px;
+:root {
+    --heading-background-color:  rgb(15, 15, 89);
+    --heading-text-color: #333;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+
 }
 
 aside{
     width: 20rem;
     margin: 1rem; 
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem; 
+    padding: var(--padding);
     background-color: #b0b4bd;
-    color: #333;
+    color: var(--heading-text-color);
     text-align: center;
 }
 
@@ -16,10 +21,14 @@ aside img {
     width: 200px;
     height: auto;
 }
-
+body {
+    font-family: var(--heading-font);
+}
 main {
     margin: 10px;
     text-align: justify;
+    max-width: 850px;
+
     
 }
 main img {
@@ -40,7 +49,7 @@ nav a {
 }
 
 h1 {
-    color: rgb(15, 15, 89);
+    color: var(--heading-background-color);
 }
 
 img{
