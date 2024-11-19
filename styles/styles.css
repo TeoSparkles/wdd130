@@ -21,9 +21,11 @@ aside img {
     width: 200px;
     height: auto;
 }
+
 body {
     font-family: var(--heading-font);
 }
+
 main {
     margin: 10px;
     text-align: justify;
