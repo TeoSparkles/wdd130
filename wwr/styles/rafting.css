@@ -5,7 +5,7 @@
     --accent1: #cfcfb4;
     --accent2: #b4cde4;
 
-    --heading-font-family: 'Montserrat', Helvetica, sans-serif;
+    --heading-font-family: Georgia;
     --heading-font-weight: 400;
     --text-font-family: 'Roboto', 'Times New Roman', sans-serif;
     --text-font-weight: 700;
@@ -87,15 +87,12 @@ on top of the hero image using absolute positioning. */
 .hero1 img{
     /* The img inside the article floats to the right of the p paragraph. */
     float: right;
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 20%;
+    max-height: 90%;
     margin: 10px;
 }
 
  
-
-
-
 /* .hero h1{
     position: absolute;
 } */
@@ -114,14 +111,17 @@ main{
     max-width: 100%;
     max-height: 100%;
 }
+
 a {
     font-family: var(--text-font-family);
     font-size: 18px;
-    text-align: center;
     text-decoration: var(--text-decoration);
-
 }
 
+
+body{
+    background-color: #cfcfb4;
+}
 h1 {
     font-family: var(--heading-font-family);
 }
@@ -132,6 +132,15 @@ h2 {
 
 p {
     font-family: var(--text-font-family);
-
 }
 
+
+footer{
+    text-decoration: none;
+    background-color: var(--accent2);
+    padding: 20px;
+}
+.sociallinks img{
+    width: 40px;
+    height: 40px;
+}
