@@ -1,0 +1,137 @@
+:root {
+    --heading-background-color:  rgb(15, 15, 89);
+    --primary-color: #505033;
+    --secondary-color: #264969;
+    --accent1: #cfcfb4;
+    --accent2: #b4cde4;
+
+    --heading-font-family: 'Montserrat', Helvetica, sans-serif;
+    --heading-font-weight: 400;
+    --text-font-family: 'Roboto', 'Times New Roman', sans-serif;
+    --text-font-weight: 700;
+
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+    --background-color: white;
+    --text-decoration: none;
+    --color: black;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: 100px;    
+
+}
+
+.logo-box{
+    max-width: 100%; 
+    max-height: auto;
+    margin: 10px 2px; 
+    border: 0.5px solid rgba(0, 0, 0, 1); 
+    padding: 60px; 
+    background-color: #505033; 
+    text-align: right;
+    text-decoration: none;
+}
+.head-layer a{
+    max-width: 100%; 
+    margin: 20px 0px 0px 2px; 
+    padding: 10px; 
+    color: #b4cde4;
+}
+
+
+/* The div with the class of hero is positioned relative in 
+order the h1 and the article elements to be positioned 
+on top of the hero image using absolute positioning. */
+
+.hero {
+    margin: 20px 10px 10px 20px;
+    position: relative;
+}
+
+
+.hero img{
+    /* The hero image fits within the allocated space. */
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-color: var(--secondary-color);
+}
+
+.hero1 h1{
+    /* The h1 heading is positioned absolutely. */
+    position: absolute;
+
+    top: 30px;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+    color: white;
+}
+.hero1 article{
+    /* The article is positioned absolutely. */
+    position: absolute;
+    background-color: #505033;
+    color: white;
+    top:25%;
+    bottom: 25%;
+    left: 25px;
+    right: 25px;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    opacity: 0.8;
+}
+.hero1 img{
+    /* The img inside the article floats to the right of the p paragraph. */
+    float: right;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 10px;
+}
+
+ 
+
+
+
+/* .hero h1{
+    position: absolute;
+} */
+
+/* .hero article{
+    position: absolute;
+    background-color: var(--primary-color);
+    color: var(--accent2);
+} */
+
+/* .hero article{
+    position: absolute;
+    text-align: center; */
+/* } */
+main{
+    max-width: 100%;
+    max-height: 100%;
+}
+a {
+    font-family: var(--text-font-family);
+    font-size: 18px;
+    text-align: center;
+    text-decoration: var(--text-decoration);
+
+}
+
+h1 {
+    font-family: var(--heading-font-family);
+}
+
+h2 {
+    font-family: var(--heading-font-family);
+}
+
+p {
+    font-family: var(--text-font-family);
+
+}
+

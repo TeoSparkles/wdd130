@@ -1,0 +1,63 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.primary-color{
+    color: #B4CDE4;
+}
+.secondary-color{
+    color: #264969;
+}
+.accent1-color{
+    color: #CFCFB4;
+}
+.accent2-color{
+    color: #B4CDE4;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Merriweather', serif; }
+
+.heading-font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: black;
+}
+.text-font{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+
+/* body{
+    color: #B4CDE4 */
+   /* Primary color: #505033; */
+   /* Secondary color: #264969; */
+   /* Accent 1 color: #CFCFB4; */
+   /* Accent 2 color: #B4CDE4; */
+/* } */
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400, 700;
+    color: Black;
+}
+
+body .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}

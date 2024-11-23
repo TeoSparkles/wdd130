@@ -47,7 +47,8 @@ nav {
 nav a {
     display: block;
     padding: 20px;
-    color: hsl(0, 0%, 100%)
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
 }
 
 h1 {
