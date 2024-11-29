@@ -14,24 +14,23 @@
     
 </head>
 <body>
-    <header>
-        <!-- Create a navigation to the header-->
-        <nav>
-        <div class="logo-box">  
-            <div class="logo">      
-                <a href="index.html"> 
-                        <img src="images/WhiteWaterLogo.jpg" alt="Home">
-                    </a>
-            </div> 
 
-            
-        <div class="head-layer"> 
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+    <!-- Create the navigation bar -->
+    <header>
+        <nav>
+            <div class="logo">
+            <a href="index.html"> 
+                <img src="images/WhiteWaterLogo.jpg" alt="Home"></a></div>
+
+
+            <div class="head-layer">
+            <ul class="flex-item">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
             </div>
-        </div>
         </nav>
         
         
@@ -49,24 +48,34 @@
             </article>
             </div>
         </div>
-
         
-        <section>
+        <section class="section-class1">
             <h1>History</h1>
-            <h2>This is a history section.</h2>
+            <div class="column">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta ornare mauris a vehicula. Mauris elementum dictum mauris. Phasellus nec dui et ante mollis varius. Phasellus quis dolor metus. Cras ac maximus enim, nec consequat urna. Integer iaculis velit eu congue fringilla. Nulla ullamcorper sed dui sed pellentesque. Suspendisse lobortis tellus a risus ornare rutrum. Ut eget semper mauris. Aenean a turpis eu ex aliquet ultricies in et ante. Nam aliquam mauris ac leo interdum egestas. Aenean a ultrices sem. Sed ut maximus nibh. Nunc ornare tellus quis enim facilisis, sit amet tempus elit molestie. Quisque tincidunt mi et erat tempor, tempus posuere arcu pulvinar. Nullam erat orci, eleifend ac efficitur id, commodo eu velit.
+            </div>
+            <div class="column">
+                <img src="images/rafting29_600.jpg" alt="Rafting">
+            </div>
+            <div class="column">
+            <p>Integer vestibulum vulputate condimentum. Proin auctor cursus tortor tempus commodo. Vivamus eleifend suscipit nibh sed suscipit. Maecenas id varius magna. Praesent porta leo vel sem luctus, ut blandit eros venenatis. Vestibulum eu accumsan elit, nec ultricies leo. Nulla maximus malesuada erat ac maximus. Sed sit amet eros blandit sapien lobortis bibendum. Proin posuere scelerisque erat, vel volutpat justo sodales id. Morbi ultricies sem id venenatis volutpat.</p>
+            </div>
+            
         </section>
-
-        <section>
-            <h2>Adventure Awaits You!</h2>
-            <img src="images/rafting53_600.jpg" alt="">
-            <img src="images/rafting59_600.jpg" alt="">
-            <img src="images/rafting64_600.jpg" alt="">
-            <img src="images/rafting65_600.jpg" alt="">
-            <img src="images/rafting58_600.jpg" alt="">
+        <section class="section-class2">
+            <h2 class="h2-title-class">Adventure Awaits You!</h2>
+            <figure><figcaption><img class="section-class2 section-class2-item1" src="images/rafting53_600.jpg" alt=""> Across the white water.</figcaption></figure>
+            <figure><figcaption><img class="section-class2 section-class2-item2" src="images/rafting59_600.jpg" alt="">Team Building.</figcaption></figure>
+            <figure><figcaption><img class="section-class2 section-class2-item3" src="images/rafting64_600.jpg" alt="">???</figcaption></figure>
+            <figure><figcaption><img class="section-class2 section-class2-item4" src="images/rafting65_600.jpg" alt="">???</figcaption></figure>
+            <figure><figcaption><img class="section-class2 section-class2-item5" src="images/rafting58_600.jpg" alt="">???</figcaption></figure>
 
         </section>
     </main>
-    <footer>
+    <footer class="footer-class">
+        <!-- Create the footer at the end of the page -->
+        <p>Copyright 2024 White Water Rafting</p>
+
         <nav class="sociallinks">
             <a href="https://facebook.com">
                 <img src="images/fb.png" alt="FacebookLogo">
@@ -79,8 +88,6 @@
                 <img src="images/instagram.png" alt="InstagramLogo">
             </a>
         </nav>
-        <!-- Create the footer at the end of the page -->
-         <p>Copyright 2024 White Water Rafting</p>
     </footer>
 </body>
 </html>
