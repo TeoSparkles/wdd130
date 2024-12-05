@@ -266,6 +266,28 @@ p {
 }
 
 
+
+/* This will be a W5 Assignment */
+label, input, button, select, textarea{
+    font-family: var(--text-font-family);
+  }
+
+.contact-class1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    padding: 10px 10px;
+    background-color: var(--accent2); 
+	border: 1px solid var(--secondary-color);
+	max-width: 100%;
+    /* margin: 1px;
+    padding: 1px; */
+	/* grid-template-columns: 100% 2fr;
+	align-items: center; */
+    
+}
+
+
 footer{
     text-decoration: none;
     background-color: var(--primary-color);
