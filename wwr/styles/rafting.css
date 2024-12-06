@@ -124,6 +124,7 @@ nav {
     /* width: 400px; */
     /* order: 2; */
 }
+
 .section-class2{
     display: flex;
     justify-content: space-around;
@@ -268,7 +269,6 @@ p {
 
 
 /* This will be a W5 Assignment */
-
 .column1 label{
     text-align: left;
     padding-right: 1rem;
@@ -277,30 +277,27 @@ p {
     text-align: right;
     padding-right: 1rem;
 }
-  /* input[type="checkbox"]{
-    width: 22px;
-    height: 22px;
-    vertical-align: bottom;
-  } */
+
 
 textarea{
     font-family: var(--text-font-family);
   }
-  .contact-class1{
-      display: grid;
-      text-align: left;
-      grid-template-columns: 1fr 1fr;
-      margin: 10px 50px;
-      padding: 10px 50px;
-      background-color: var(--accent2); 
-      border: 1px solid var(--secondary-color);
-      max-width: 100%;
-      border-radius: 1.2em;
-      /* margin: 1px;
-      padding: 1px; */
-      /* grid-template-columns: 100% 2fr;
-      align-items: center; */
-    }
+
+
+.contact-class1{
+    display: grid;
+    text-align: left;
+    margin: 10px 10px;
+    padding: 10px 50px;
+    background-color: var(--accent2); 
+    border: 1px solid var(--secondary-color);
+    max-width: 100%;
+    border-radius: 1.2em;
+    /* margin: 1px;
+    padding: 1px; */
+    /* grid-template-columns: 100% 2fr;
+    align-items: center; */
+}
     
 .contact-class-a h1{
         /* text-align: center; */
@@ -311,24 +308,30 @@ textarea{
     }
 .contact-class-a{
     text-align: left;
-    grid-column: 1/3;
-    grid-row: 1/3;
 	max-width: 100%;
-    /* margin: 10px 50px;
-    padding: 10px 50px; */
-    /* background-color: var(--accent2);  */
-    /* border-radius: 1.2em; */
-    /* margin: 1px;
-    padding: 1px; */
-	/* grid-template-columns: 100% 2fr;
-	align-items: center; */
-    
+   
+}
+.contact-class-b figure{
+    display: flex;
+	border: 1px solid var(--secondary-color);
+    /* width: 10; */
+    padding: 1px;
+    max-width: 100px;
+}
+.contact-class-b figcaption{
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 0px;
+    max-width: 100px;
+    text-align: center;
 }
 .contact-class-b img{
     width: 100px;
     height: 100px;
     float: left;
     padding-right: 20px;
+    /* border: none; */
 }
 .contact-class-b{  
     text-align: left;
@@ -346,31 +349,69 @@ textarea{
 	align-items: center; */
     
 }
+
+
+
+
+
 .contact-class2{
-    display: grid;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     text-align: center;
-    margin: 10px 400px;
+    /* grid-template-columns: 1fr 1fr; */
+    max-width: 100%;
+    border-radius: 1.2em;
+    margin: 10px 50px;
     padding: 10px 50px;
     background-color: var(--accent2); 
 	border: 1px solid var(--secondary-color);
 	max-width: 100%;
     border-radius: 1.2em;
+}
+/* .contact-class2a{
+    grid-column: 1/3;
+    text-align: center;
+    margin: 10px 50px;
+    padding: 10px 50px;
+    background-color: var(--accent2); 
+	border: 1px solid var(--secondary-color);
+	max-width: 100%;
+    border-radius: 1.2em; */
+    /* margin: 1px;
+    padding: 1px; */
+	/* grid-template-columns: 100% 2fr;
+	align-items: center; */
+/* .contact-class2b{ */
+    /* display: grid; */
+    /* justify-content: center; */
+    /* text-align: center;
+    grid-column: 3/3; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* margin: 10px 50px;
+    padding: 10px 50px;
+    background-color: var(--accent2); 
+	border: 1px solid var(--secondary-color);
+	max-width: 100%;
+    border-radius: 1.2em; */
     /* margin: 1px;
     padding: 1px; */
 	/* grid-template-columns: 100% 2fr;
 	align-items: center; */
     
+/* } */
+/* .contact-item2{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: #dfdfdf;
 }
-/* form{
-    display: grid;
-    width: 650px;
-    height: auto;
-    margin: 0 auto;
-    padding: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.1);
-    border-radius: 0.5rem;
-    background-color: #eee;
-
+.contact-item-2 {
+    flex: 1;
+    min-height: 100px;
+    flex-shrink: 0;
+    align-self:  flex-end;
+    order: 3;
 } */
 
 .form-item{
@@ -380,7 +421,7 @@ textarea{
   .column1{
     grid-template-columns: 1fr 2fr;
     /* This is what I'm wrong */
-    margin: 0px 7rem 0px 5rem;
+    /* margin: 0px 7rem 0px 0rem; */
   }
   .column2{
     grid-template-columns: 1fr 2fr;
@@ -437,10 +478,11 @@ footer{
     border: 1px solid black;
     margin: 10px 0px;
 }
-
+footer a{
+    color: white;
+}
 .footer-class {
     display: grid;
     grid-template-columns: 1fr 1fr;
     z-index: 1;
-
 }
