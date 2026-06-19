@@ -6,7 +6,7 @@
 :root {
     --heading-background-color:  rgb(15, 15, 89);
     --heading-text-color: #333;
-    --heading-font: "Arial", Helvetica, sans-serif;
+    --heading-font: Arial, Helvetica, sans-serif;
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.1);
     --background-color: white;
